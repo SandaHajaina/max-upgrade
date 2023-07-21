@@ -5,8 +5,8 @@ const Logo = () => {
     return (
         <div>
             <div className="logo">
-                <NavLink to="/" >
-                    <img src="./Logo_Max_Upgrade_BLANC.png" alt="Logo max upgrade" />
+                <NavLink to="/">
+                    <img src="./Logo_Max_Upgrade_BLANC_500px.png" alt="Logo max upgrade" />
                 </NavLink>
             </div>
         </div >
