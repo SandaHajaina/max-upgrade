@@ -1,0 +1,26 @@
+.navigation {
+    height: 120px;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    max-width: 1200px;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+    }
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.navigation li {
+    list-style: none;
+}

@@ -1,0 +1,45 @@
+footer {
+    background-color: #1d5e85;
+
+    .footer {
+        max-width: 1200px;
+        margin: auto;
+        height: 30vh;
+        min-height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-logo {
+            width: 25%;
+        }
+
+        .footer-contact {
+            text-align: center;
+            width: 50%;
+
+            hr {
+                margin: 30px 0 30px 0;
+            }
+        }
+
+        .footer-social-media {
+            text-align: center;
+            width: 25%;
+
+            ul {
+                display: flex;
+                justify-content: center
+            }
+
+            li {
+                margin: 10px;
+            }
+
+            .social-media-logo {
+                width: 30px;
+            }
+        }
+
+    }
+}

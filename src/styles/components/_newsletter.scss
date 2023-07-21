@@ -1,0 +1,46 @@
+ .newsletter__wrapper {
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .subtitle {
+     h3 {
+         font-weight: 800;
+         color: #1d5e85;
+         font-size: 1.5rem;
+     }
+ }
+
+ .form__container {
+     margin-block: 2rem;
+
+     >div {
+         display: flex;
+
+         input {
+             width: 100%;
+             border: 1px solid #1d5e85;
+             padding: 1rem 2rem;
+             border-radius: 5px 0 0 5px;
+
+             &::placeholder {
+                 color: #1d5e85;
+                 font-size: 1rem;
+                 font-weight: 600;
+             }
+         }
+
+         label {
+             background: #1d5e85;
+             display: flex;
+             align-items: center;
+             padding-inline: 1rem;
+             border-radius: 0 5px 5px 0;
+
+
+         }
+     }
+ }
