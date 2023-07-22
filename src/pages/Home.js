@@ -32,7 +32,7 @@ const Home = () => {
             </section>
 
             {/* Agency */}
-            <section className='agency__section'>
+            <section className='agency__section' id='agency__section'>
                 <Agency />
             </section>
 

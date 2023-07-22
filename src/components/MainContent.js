@@ -9,14 +9,18 @@ import animationMarketing from '../assets/json/marketing.json';
 const MainContent = () => {
     return (
         <div>
-            <div>
-                <h3 className='subtitle'>This is how are different</h3>
+            <div className='first__part'>
+                <h3 className='subtitle'>This is how we're different</h3>
+
+                <div className='our__differences'>
+
+                </div>
             </div>
 
             <div>
-                <h4>
+                <h2>
                     This is what We Do.
-                </h4>
+                </h2>
 
                 <div className='mainContent__wrapper'>
                     <div>
@@ -27,8 +31,7 @@ const MainContent = () => {
                         </div>
 
                         <div>
-                            <p>Description</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque eaque sapiente exercitationem, perferendis accusamus impedit similique in praesentium eveniet ipsa adipisci quas asperiores esse corporis consequuntur voluptates dolore? Rem, et dolor. Beatae exercitationem quibusdam veniam! At minima pariatur illum cumque mollitia neque libero doloribus deserunt recusandae, a suscipit?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque</p>
                         </div>
                     </div>
 
@@ -40,8 +43,7 @@ const MainContent = () => {
                         </div>
 
                         <div>
-                            <p>Description</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque eaque sapiente exercitationem, perferendis accusamus impedit similique in praesentium eveniet ipsa adipisci quas asperiores esse corporis consequuntur voluptates dolore? Rem, et dolor. Beatae exercitationem quibusdam veniam! At minima pariatur illum cumque mollitia neque libero doloribus deserunt recusandae, a suscipit?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque</p>
                         </div>
                     </div>
 
@@ -53,8 +55,7 @@ const MainContent = () => {
                         </div>
 
                         <div>
-                            <p>Description</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque eaque sapiente exercitationem, perferendis accusamus impedit similique in praesentium eveniet ipsa adipisci quas asperiores esse corporis consequuntur voluptates dolore? Rem, et dolor. Beatae exercitationem quibusdam veniam! At minima pariatur illum cumque mollitia neque libero doloribus deserunt recusandae, a suscipit?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque</p>
                         </div>
                     </div>
                 </div>

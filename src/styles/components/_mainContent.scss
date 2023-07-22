@@ -1,10 +1,32 @@
 .mainContent__section {
-    margin: 1rem 3rem;
-    color: #000;
+
+    color: #1d5e85;
+
+
+    h3 {
+        font-size: 3rem;
+        padding: 1rem 3rem;
+    }
+
+    .our__differences {
+        height: 45vh;
+    }
 }
 
 .mainContent__wrapper {
+    padding: 1rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lottie {
+        width: 250px !important;
+    }
 }

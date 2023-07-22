@@ -18,15 +18,13 @@ const Navigation = () => {
                             <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                                 <li>Services</li>
                             </NavLink>
-                            <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                            <NavLink to="/about-us" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                                 <li>About us</li>
                             </NavLink>
                             <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                                 <li>Blog</li>
                             </NavLink>
-                            <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                                <li>Contact</li>
-                            </NavLink>
+                            <a href="#agency__section"><li>Contact</li></a>
                         </ul>
                     </div>
                 </div>
