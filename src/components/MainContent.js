@@ -17,9 +17,9 @@ const MainContent = () => {
                 </div>
             </div>
 
-            <div>
+            <div id='services'>
                 <h2>
-                    This is what We Do.
+                    What We Do ?
                 </h2>
 
                 <div className='mainContent__wrapper'>
@@ -30,9 +30,9 @@ const MainContent = () => {
                             <LottieAnimation animationData={animationMarketing} />
                         </div>
 
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque</p>
-                        </div>
+                        {/* <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neques</p>
+                        </div> */}
                     </div>
 
                     <div>
@@ -42,9 +42,9 @@ const MainContent = () => {
                             <LottieAnimation animationData={animationDesign} />
                         </div>
 
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque</p>
-                        </div>
+                        {/* <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neques</p>
+                        </div> */}
                     </div>
 
                     <div>
@@ -54,9 +54,9 @@ const MainContent = () => {
                             <LottieAnimation animationData={animationDev} />
                         </div>
 
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neque</p>
-                        </div>
+                        {/* <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias debitis officiis cupiditate quis sit quidem et eius earum culpa, tenetur aliquid fugit consequuntur magni sed repellat voluptatibus asperiores. Totam id illum, nesciunt veritatis sit accusamus recusandae sint molestiae. Beatae dignissimos est, corporis minus blanditiis ut nam fugiat nostrum, placeat at rem repudiandae quia error accusantium porro? Aliquam minima ipsam, neques</p>
+                        </div> */}
                     </div>
                 </div>
             </div>

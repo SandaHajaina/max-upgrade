@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 const Navigation = () => {
     return (
-        <div>
+        <div className='nav-bg'>
             <nav>
                 <div className="navigation">
                     <div>
@@ -15,16 +15,13 @@ const Navigation = () => {
                             <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                                 <li>Home</li>
                             </NavLink>
-                            <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                                <li>Services</li>
-                            </NavLink>
-                            <NavLink to="/about-us" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                                <li>About us</li>
-                            </NavLink>
-                            <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                                <li>Blog</li>
-                            </NavLink>
-                            <a href="#agency__section"><li>Contact</li></a>
+                            <a href="#services"><li>Services</li></a>
+
+                            <a href="#about-us"><li>About us</li></a>
+
+                            <a href="#blog"><li>Blog</li></a>
+
+                            <a href="#contact"><li>Contact</li></a>
                         </ul>
                     </div>
                 </div>

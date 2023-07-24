@@ -1,5 +1,10 @@
+.nav-bg {
+    background-color: #1d5e85;
+}
+
 .navigation {
-    height: 120px;
+
+    height: 130px;
     color: #fff;
     display: flex;
     margin: auto;
@@ -23,4 +28,13 @@
 
 .navigation li {
     list-style: none;
+}
+
+.header-navigation {
+    transform: translateX(-50%);
+    background-color: #1d5e85;
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    z-index: 1000;
 }

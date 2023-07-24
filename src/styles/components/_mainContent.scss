@@ -2,6 +2,10 @@
 
     color: #1d5e85;
 
+    h2,
+    h3 {
+        text-align: center;
+    }
 
     h3 {
         font-size: 3rem;
@@ -9,24 +13,26 @@
     }
 
     .our__differences {
-        height: 45vh;
+        height: 35vh;
+        border: 4px double #1d5e85;
+        margin: 0 2rem 4rem 2rem;
     }
-}
 
-.mainContent__wrapper {
-    padding: 1rem 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    >div {
+    .mainContent__wrapper {
+        padding: 1rem 3rem;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-    }
 
-    .lottie {
-        width: 250px !important;
+        >div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lottie {
+            width: 250px !important;
+        }
     }
 }
